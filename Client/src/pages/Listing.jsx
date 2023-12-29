@@ -57,7 +57,7 @@ export default function Listing() {
       {listing && !loading && !error && (
         <div>
           <Swiper navigation loop>
-            {listing.imageUrls.map((url) => (
+            {listing.imageUrls.reverse().map((url) => (
               <SwiperSlide key={url}>
                 <div
                   className="h-[550px]"
