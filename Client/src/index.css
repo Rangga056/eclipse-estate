@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: rgb(241, 245, 241);
+}
+
+.light-green-bg {
+  background-color: #19cc73;
+}
+
+.light-green-text {
+  color: #19cc73;
+}
+
+.border-light-green {
+  border-color: #19cc73;
+}
