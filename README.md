@@ -13,17 +13,18 @@ This project is currently in development. Users can sign in and start create pro
 
 ## Installation and Setup Instructions
 
-#### Example:  
-
 Clone down this repository. You will need node and npm installed globally on your machine.  
 
 Installation:
 
+```bash
 npm install  
+```
 
 To Start Server:
-
+ ```bash
 npm run dev  
+ ```
 
 To Visit App:
 
@@ -45,4 +46,4 @@ Originally I wanted to build an application that allowed users to sell, buy or r
 
 One of the main challenges I ran into was Maanging the user listing. This lead me to spend a few days on a research spike into the MongoDB database and redux-toolkit.
 
-At the end of the day, the technologies implemented in this project are React, React-Router-dom, Redux, Express, NodeJS, MongoDB, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the create vite react template boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a webpack.config.js file to more fully understand the build process
+At the end of the day, the technologies implemented in this project are React, React-Router-dom, Redux, Express, NodeJS, MongoDB, and a significant amount of VanillaJS, JSX, and TailwindCSS. I chose to use the create vite react template boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a webpack.config.js file to more fully understand the build process
