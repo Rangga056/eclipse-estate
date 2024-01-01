@@ -70,7 +70,7 @@ const Search = () => {
     if (
       e.target.id === "all" ||
       e.target.id === "rent" ||
-      e.target.value === "sale"
+      e.target.id === "sale"
     ) {
       setSidebarData({ ...sidebarData, type: e.target.id });
     }
@@ -173,7 +173,7 @@ const Search = () => {
                 className="w-5"
                 onChange={handleChange}
                 checked={sidebarData.type === "sale"}
-              />
+              />  
               <span>Sale</span>
             </div>
             <div className="flex gap-2 items-center">
