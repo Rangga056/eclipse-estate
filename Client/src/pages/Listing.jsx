@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore from "swiper";
-import { useSelector } from "react-redux";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { useSelector } from "react-redux";
 import "swiper/css/bundle";
 import {
   FaBath,
