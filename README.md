@@ -3,9 +3,9 @@
  Eclipse Estate is a user-friendly web application designed to streamline real estate transactions. Whether you're buying, renting, or selling properties like houses and villas, Eclipse Estate provides a seamless experience. Explore a diverse range of listings, filter based on your preferences, and connect directly with sellers or buyers. 
 
 
-## Project Status (Incomplete)
+## Project Status (Completed)
 
-This project is currently in development. Users can sign in and start create property listing. Functionality to sort by additional parameters is in progress.
+This project is already completed.
 
 ## Project Screen Shot(s)
 ![profile page ](https://github.com/Rangga056/eclipse-estate/assets/136163122/0c4040d1-7d7e-40cb-9aa9-d06e55c42993)
